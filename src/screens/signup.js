@@ -1,9 +1,9 @@
 import { Text, View } from "react-native";
 
-export default NewSubjet = ({ navigator }) => {
+export default Signup = ({ navigator }) => {
   return (
     <View>
-      <Text>NewSubjet</Text>
+      <Text>Sign up</Text>
     </View>
   );
 };

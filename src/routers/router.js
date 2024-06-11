@@ -1,5 +1,13 @@
-import { View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import Login from "../screens/login";
+import StackScreens from "./stack";
+import { StatusBar } from "react-native";
 
 export default Router = () => {
-  return <View></View>;
+  return (
+    <NavigationContainer>
+      <StatusBar barStyle={"ligth-content"} />
+      <StackScreens></StackScreens>
+    </NavigationContainer>
+  );
 };
